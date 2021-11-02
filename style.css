@@ -1,0 +1,247 @@
+/* Reset Styles */ 
+
+ 
+
+*{ margin : 2px ; box-sizing : border-box ; } 
+
+ 
+
+ 
+
+ 
+
+/* Structure of web page */ 
+
+body { background : lightsteelblue ;  } 
+
+ 
+
+/* To create gaps between articles */  
+
+article {margin-top:15px; }    
+
+ 
+
+ 
+
+/*  Wrapper to centre webpage in browser */  
+
+#container { 
+
+width : 80%; 
+
+margin : auto; 
+
+background-color: white; 
+
+color : black;  
+
+border : 2px solid black ;} 
+
+ 
+
+ 
+
+/* Style for main content area  */  
+
+main {  
+
+ 
+
+padding : 14px ; 
+
+color : black; 
+
+border : 2px solid black ;  } 
+
+ 
+
+ 
+
+/* Banner */  
+
+header { 
+
+padding : 10px ; 
+
+border-bottom : 2px solid white ;  
+
+background : darkslateblue;  
+
+color : white;   
+
+} 
+
+ 
+
+/* Menu */ 
+
+nav { 
+
+height : 50px;  
+
+padding : 10px;  
+
+border-bottom : 2px solid black ; 
+
+background : darkslateblue;  
+
+color : black;  
+
+} 
+
+ 
+
+/* Footer */  
+
+footer{  
+
+clear : both ;  
+
+padding : 10px;  
+
+border : 2px solid black ; 
+
+background : blue;  
+
+color : black;   
+
+} 
+
+ 
+
+ 
+
+ 
+
+/* List rules */  
+
+main ul {  
+
+list-style-type: circle; 
+
+padding-left: 20px; 
+
+} 
+
+ 
+
+main ul li { 
+
+text-align: left; 
+
+} 
+
+ 
+
+ 
+
+/* font rules */  
+
+header {font-family : "Arial", cursive ; font-size: 20px; text-align :left;} 
+
+nav {font-family : "Verdana", cursive ; font-size: 16px; text-align :left;} 
+
+main {font-family : "Times New Roman", cursive ; font-size: 14px; text-align :left;} 
+
+footer{font-family : "Arial", cursive ; font-size: 12px; text-align :left;} 
+
+ 
+
+main, h2, h3, h4, p { text-align :left; } 
+
+h1 { text-align :center; }  
+
+ 
+
+ 
+
+ 
+
+/* Hyperlink rules */  
+
+footer a {text-decoration: none; font-weight: white;} 
+
+nav a {text-decoration: none; font-weight: white;} 
+
+ 
+
+footer a:link, a:hover, a:active { color: white; } 
+
+footer a:visited { color: white; } 
+
+ 
+
+nav a:link, a:hover, a:active { color: white; } 
+
+nav a:visited { color: white; } 
+
+ 
+
+main a:link, a:hover, a:active { color: white; } 
+
+main a:visited { color: white; } 
+
+ 
+
+ 
+
+ 
+
+/* Navigation Styles */ 
+
+nav ul { list-style-type : none ; margin : 0 ; padding : 0 ;  overflow : hidden ; } 
+
+ 
+
+nav li a {  
+
+display : block ;  
+
+text-align : center ;  
+
+text-decoration : none ;  
+
+color : green ;  
+
+padding : 10px ;  
+
+float : left ; } 
+
+ 
+
+nav li a: { background : lightsteelblue ; color: lightsteelblue ; } 
+
+nav li a:hover { background : darkslateblue ; color : White ; } 
+
+ 
+
+ 
+
+ 
+
+ 
+
+/* Image rules */ 
+
+#imgFloatRight1 {float: right; margin: 0px 15px 15px 15px;} 
+
+ 
+
+ 
+
+ 
+
+/* Table Caption */  
+
+.caption { 
+
+font-family : "arial", cursive ;  
+
+font-size: 13px;  
+
+text-align :centre; 
+
+font-weight:bold; 
+
+} 
